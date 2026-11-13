@@ -1,4 +1,4 @@
-def calcualr_frete(valor_compra):
+def calcular_frete(valor_compra):
   if valor_compra < 0:
     raise ValueError("O valor da compra não pode ser negativo")
   if valor_compra >= 200:
